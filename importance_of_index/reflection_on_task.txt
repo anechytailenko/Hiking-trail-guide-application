@@ -1,0 +1,11 @@
+Щоб проаналізувати швидкість виконання запросів я візьму дві таблиці(location,trail) з бази даних (hiking_trail_guide_app)
+Тому я створила дві бази даних 'withinex' та 'withoutindex',кожна з яких створена з 2 таблиць(де знаходяться 20тис рядків)
+Після цього я створила некластерні індекси index_country та index_trail_name в базі даних withindex
+В двох базах даних я написала такий запрос:
+
+SELECT trail_name 
+FROM trail t
+INNER JOIN (SELECT l.id FROM location l WHERE country = 'Germany') as c on c.id=t.location_id
+
+Результати, прикриплені окремо, але бачимо, що запрос з індексами виконався у 1,5 разів швидше
+
