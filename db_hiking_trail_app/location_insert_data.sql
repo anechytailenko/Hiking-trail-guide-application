@@ -1,8 +1,8 @@
 -- Assuming you have already created the `location` table structure
-
+USE withindex;
 -- Generate 40 rows of plausible data with a greater range of countries
 DELIMITER //
-CREATE PROCEDURE GenerateExpandedLocationData()
+CREATE PROCEDURE GenerateExpandedLocationData1()
 BEGIN
     DECLARE i INT DEFAULT 0;
     DECLARE loc_name VARCHAR(255);
@@ -71,4 +71,4 @@ END//
 DELIMITER ;
 
 -- Call the procedure to generate data with expanded countries
-CALL GenerateExpandedLocationData();
+CALL GenerateExpandedLocationData1();
