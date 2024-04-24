@@ -60,8 +60,8 @@ views.sql
 >
 - [ ] [subqueries.sql](pa3/pa3.sql)
 ## ***Practical assignment 4:***
-- [ ] [procedures.sql]()
-- [ ] [execution.sql]()
+- [ ] [procedures.sql](pa4/procedures.sql)
+- [ ] [execution.sql](pa4/executions.sql)
 
 ## ***Practical assignment 5:***
 - [ ] [views.sql]()
