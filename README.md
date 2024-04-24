@@ -42,6 +42,7 @@ views.sql
 
 
 ## ***Practical assignment 1:***
+* [schema.sql](schema.sql)
 
 ## ***Practical assignment 2:***
 ## ***Practical assignment 3:***
