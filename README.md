@@ -43,23 +43,27 @@ views.sql
 
 ## ***Practical assignment 1:***
 >
-* [schema.sql](pa1/schema.sql)
+- [ ] [schema.sql](pa1/schema.sql)
 
 
-* [quries.sql](pa1/queries.sql)
+- [ ] [quries.sql](pa1/queries.sql)
 ## ***Practical assignment 2:***
 >
-* [schema_updates.sql](pa2/schema_updates.sql)
+- [ ] [schema_updates.sql](pa2/schema_updates.sql)
 
 
-* [queries.sql](pa2/queries.sql)
+- [ ] [queries.sql](pa2/queries.sql)
 
 
-* [bonus.sql](pa2/bonus.sql)
+- [ ] [bonus.sql](pa2/bonus.sql)
 ## ***Practical assignment 3:***
 >
-* 
+- [ ] [subqueries.sql](pa3/pa3.sql)
+- [ ] [bonus.py]()
 ## ***Practical assignment 4:***
+- [ ] [procedures.sql]()
+- [ ] [execution.sql]()
+
 ## ***Practical assignment 5:***
 
 
