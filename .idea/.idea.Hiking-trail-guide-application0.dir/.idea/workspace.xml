@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aa0044d-d94f-40f5-970a-ea7f5e597af1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pa1/queries.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pa1/schema.sql" afterDir="false" />
-    </list>
+    <list default="true" id="7aa0044d-d94f-40f5-970a-ea7f5e597af1" name="Changes" comment="main pa1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +86,7 @@
     <MESSAGE value="Delete query_task directory" />
     <MESSAGE value="alter readme" />
     <MESSAGE value="figuration for pa1" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="main pa1" />
+    <option name="LAST_COMMIT_MESSAGE" value="main pa1" />
   </component>
 </project>
