@@ -42,10 +42,23 @@ views.sql
 
 
 ## ***Practical assignment 1:***
+>
 * [schema.sql](pa1/schema.sql)
 
+
+* [quries.sql](pa1/queries.sql)
 ## ***Practical assignment 2:***
+>
+* [schema_updates.sql](pa2/schema_updates.sql)
+
+
+* [queries.sql](pa2/queries.sql)
+
+
+* [bonus.sql](pa2/bonus.sql)
 ## ***Practical assignment 3:***
+>
+* 
 ## ***Practical assignment 4:***
 ## ***Practical assignment 5:***
 
