@@ -59,12 +59,12 @@ views.sql
 ## ***Practical assignment 3:***
 >
 - [ ] [subqueries.sql](pa3/pa3.sql)
-- [ ] [bonus.py]()
 ## ***Practical assignment 4:***
 - [ ] [procedures.sql]()
 - [ ] [execution.sql]()
 
 ## ***Practical assignment 5:***
+- [ ] [views.sql]()
 
 
 
