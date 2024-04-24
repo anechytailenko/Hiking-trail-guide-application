@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aa0044d-d94f-40f5-970a-ea7f5e597af1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hiking-trail-guide-application0.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hiking-trail-guide-application0.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hiking-trail-guide-application0.dir/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Hiking-trail-guide-application0.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queries.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
+    <list default="true" id="7aa0044d-d94f-40f5-970a-ea7f5e597af1" name="Changes" comment="figuration for pa1">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hiking-trail-guide-application0.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hiking-trail-guide-application0.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713423626938</updated>
       <workItem from="1713423629059" duration="114000" />
-      <workItem from="1713962690203" duration="6003000" />
+      <workItem from="1713962690203" duration="6649000" />
     </task>
     <task id="LOCAL-00001" summary="alter readme">
       <option name="closed" value="true" />
@@ -73,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713966936909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="figuration for pa1">
+      <option name="closed" value="true" />
+      <created>1713968737742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713968737742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +87,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Delete query_task directory" />
     <MESSAGE value="alter readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="alter readme" />
+    <MESSAGE value="figuration for pa1" />
+    <option name="LAST_COMMIT_MESSAGE" value="figuration for pa1" />
   </component>
 </project>
