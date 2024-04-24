@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/importance_of_index/query.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/pa2/put_index_on_columns.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/pa2/schema_updates.sql" dialect="MySQL" />
+  </component>
+</project>

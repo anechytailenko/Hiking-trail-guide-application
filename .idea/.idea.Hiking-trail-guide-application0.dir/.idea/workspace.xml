@@ -4,27 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="226b14a5-4cf0-4a58-a251-33bae863d229" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="226b14a5-4cf0-4a58-a251-33bae863d229" name="Changes" comment="change in second assignment">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hiking-trail-guide-application0.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hiking-trail-guide-application0.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/importance_of_index/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/importance_of_index/query.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2/database_creation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_hiking_trail_app/database_creation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2/difficulty_insert_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_hiking_trail_app/difficulty_insert_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2/hiker_insert_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_hiking_trail_app/hiker_insert_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2/location_insert_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_hiking_trail_app/location_insert_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2/rating_insert_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_hiking_trail_app/rating_insert_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2/review_insert_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_hiking_trail_app/review_insert_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2/table_creation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_hiking_trail_app/table_creation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa2/trail_insert_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_hiking_trail_app/trail_insert_data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "additional__task",
     "node.js.selected.package.tslint": "(autodetect)"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="add readme">
+      <option name="closed" value="true" />
+      <created>1713979118836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713979118836</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change in second assignment">
+      <option name="closed" value="true" />
+      <created>1713979330065</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713979330065</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="add readme" />
+    <MESSAGE value="change in second assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in second assignment" />
   </component>
 </project>

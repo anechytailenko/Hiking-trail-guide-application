@@ -30,3 +30,4 @@ DELIMITER ;
 
 -- Call the procedure to generate data
 CALL GenerateDifficultyData();
+
