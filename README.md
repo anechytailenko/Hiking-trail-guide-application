@@ -62,11 +62,13 @@ views.sql
   - The `review` table has two foreign keys: `hiker_id` and `trail_id`. 
   - The `hiker` table has a one-to-many relationship with the `rating` and `review` tables.
 
+
 - [ ] [queries.sql](pa2/queries.sql)
-- 
+- There are two select queries that include many-to-many relationships. To retrieve data based on many-to-many relationship, `JOIN` operations(such as `INNER/LEFT/RIGHT/FULL/CROSS JOIN`,) is typically used. In my case, I leverage `INNER JOIN`.
 
 
 - [ ] [bonus.sql](pa2/bonus.sql)
+- To complete this task, I delved into the topic of indices. First, I created two tables, then generated more rows to see the benefits of indexing, which means faster execution time, and indexed a column in one table, which I used in a subsequent query. After executing the query, I found that the query actually became much faster.
 ## ***Practical assignment 3:***
 >
 - [ ] [subqueries.sql](pa3/pa3.sql)
