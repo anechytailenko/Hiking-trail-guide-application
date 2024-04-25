@@ -70,8 +70,9 @@ views.sql
 - [ ] [bonus.sql](pa2/bonus.sql)
 - To complete this task, I delved into the topic of indices. First, I created two tables, then generated more rows to see the benefits of indexing, which means faster execution time, and indexed a column in one table, which I used in a subsequent query. After executing the query, I found that the query actually became much faster.
 ## ***Practical assignment 3:***
->
+>This assignment was aimed at improving my hard skills in writing `SELECT`/`UPDATE`/`DELETE` queries with `correlated/non-correlated subqueries`.
 - [ ] [subqueries.sql](pa3/pa3.sql)
+ - There are 30 queries that include clauses such as : `=` ;`(NOT) IN`; `(NOT)EXISTS`.And for each of these clauses two types of subqueries were demonstrated. 
 ## ***Practical assignment 4:***
 - [ ] [procedures.sql](pa4/procedures.sql)
 - [ ] [execution.sql](pa4/executions.sql)
