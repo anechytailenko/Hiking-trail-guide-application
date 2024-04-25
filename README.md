@@ -7,7 +7,7 @@ Here are links to each of the practical assignments where their description and 
 * [Practical assignment 3](#practical-assignment-3)
 * [Practical assignment 4](#practical-assignment-4)
 * [Practical assignment 5](#practical-assignment-5)
-* [Diagram and final word]()
+* [Diagram and final word](#conclusion)
 
 ****
 
@@ -71,6 +71,7 @@ Here are links to each of the practical assignments where their description and 
 ## Conclusion:
 This course covered the basics of databases and looking at the diagram of my database, I see the result, but at the same time I see a lot of new things to discover and improve and it inspires me to go further!
 ![diagram](diagram/diagram.png)
+ ####        ***The project was done by Nechytailenko Anna XM-2***
 
 
 
