@@ -1,7 +1,7 @@
 # Hiking-trail-guide-application
 
 Write some intro
-> A hiking trail guide is an app that helps hikers find and explore trails arounf the world
+> A hiking trail guide is an app that helps hikers find and explore trails around the world
 
 
 >1.structure(pa1,pa2,pa3,pa4,pa5+bonustask) pa1/
@@ -74,11 +74,20 @@ views.sql
 - [ ] [subqueries.sql](pa3/pa3.sql)
  - There are 30 queries that include clauses such as : `=` ;`(NOT) IN`; `(NOT)EXISTS`.And for each of these clauses two types of subqueries were demonstrated. 
 ## ***Practical assignment 4:***
+>The task of this assignment was to implement a `stored procedure` with all kinds of parameters (`IN`, `OUT`, `INOUT`) and write transactional mechanism that contains conditions under which `COMMIT` or `ROLLBACK` statements are executed.
 - [ ] [procedures.sql](pa4/procedures.sql)
+ - Scripts for three stored procedures with parameters IN, OUT, INOUT and transaction are located here¸ Let's  take a closer look at them:
+   - The stored procedure with two IN parameters select moderate hiker who give a certain score to a certain trail;
+   - The stored procedure with one OUT parameter select amount of hikers who wrote at least two review;
+   - The stored procedure with one INOUT parameter select number of trails with a given score that was evaluated by moderate hikers;
+   - The transaction follows this logic: user give parameter a by which the score (which is associated with parameter b that represent country) will be decreased. Transaction is not implemented if the score after decreasing is less than 0
 - [ ] [execution.sql](pa4/executions.sql)
+- In this file I called three stored procedures that were described above. Also, I have demonstrated different results of the transaction completion depending on the logic. 
 
 ## ***Practical assignment 5:***
+> The purpose of this assignment was to create views. Actually, this assignment made me realise that virtual tables are an integral part of working with databases in real life, as they simplify complex queries, ensure data security and make access to this data convenient.
 - [ ] [views.sql](pa5/views.sql)
+- The structure of the two views is in this file. As a result, I have virtual tables for Europe and North America with columns `trail_name`, `image`, `coordinates`, `description` and `first sentences of the two most recent reviews`. To implement the last column, I used the `SUBSTRING_INDEX` function, which extracts substrings from a string based on a specified delimiter.
 
 
 
