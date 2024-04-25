@@ -1,6 +1,6 @@
 # Hiking-trail-guide-application
 ## **Structure of the project:**
-Here are links to each of the practical assignments where their description and code could be found
+Here are links to each part of the project where description and code could be found 
 * [Introduction](#introduction)
 * [Practical assignment 1](#practical-assignment-1)
 * [Practical assignment 2](#practical-assignment-2)
