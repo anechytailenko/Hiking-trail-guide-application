@@ -1,39 +1,21 @@
 # Hiking-trail-guide-application
 
-Write some intro
-> A hiking trail guide is an app that helps hikers find and explore trails around the world
 
 
->1.structure(pa1,pa2,pa3,pa4,pa5+bonustask) pa1/
-schema.sql --> no CRUD queries, only schema associated queries
-queries.sql --> CRUD operations only, no CREATE/DROP/ALTER queries
-pa2/
-schema_updates.sql
-queries.sql
-bonus.sql
-[screenshots if any]
-pa3/
-subqueries.sql
-[bonus.py if you prepared bonus task] (If your bonus task is placed in the separate git repo then you can add bonus.MD file, put there description and link)
-[screenshots if any]
-pa4/
-procedures.sql
-executions.sql
-bonus.py (see comment above)
-pa5/
-views.sql
-[bonus.MD] --> Put info about the idea and a simple
-> 2. .gitignore
-     The repo should contain only files which are associated with the project.
-> 3. Care about MySQL (and Python/C#) code style (up to 20% from the max grade).
-> 4. 4. Prepare README.MD
+
+**The topic for my database was Hiking Trail Guide, a simulation of an application that helps hikers find and explore trails around the world. In fact, it was very interesting because I used my knowledge acquired during the course on this database and saw it evolve from creating tables without relationships to creating transactions and views.  To work with the databases, I installed a MySQL server and used port 3306 (by default), and when choosing a client, I had three candidates: DBeaver, Workbench, and Rider, but I chose Rider because, in my subjective opinion, it has a more intuitive interface.**
+
+
+
+
         4.1. Add generic info
         4.2. Describe project structure
         4.3. How to deploy the project
         4.4. How to run bonus tasks if any
         4.5. Info about author
 ****
-## **1.Structure of the project:**
+## **Structure of the project:**
+Here are links to each of the practical assignments where their description and code could be found
 * [Practical assignment 1](#practical-assignment-1)
 * [Practical assignment 2](#practical-assignment-2)
 * [Practical assignment 3](#practical-assignment-3)
@@ -43,16 +25,16 @@ views.sql
 
 
 ## ***Practical assignment 1:***
-> The main goal of this task was to create and populate tables, use appropriate data types, and perform CRUD(C-create, R-read, U-update, D-delete) operations
-- [ ] [schema.sql](pa1/schema.sql)
+**The main goal of this task was to create and populate tables, use appropriate data types, and perform CRUD(C-create, R-read, U-update, D-delete) operations**
+- [x] [schema.sql](pa1/schema.sql)
 - This includes creating the `hiking_trail_guide_app` database and filling in tables such as: `location`,`difficulty`,`trail`,`hiker`,`rating`,`review`. I used the following types for the data: `INT`, `VARCHAR`, `DOUBLE`, `DATE`, `ENUM`.
 
 
-- [ ] [quries.sql](pa1/queries.sql)
+- [x] [quries.sql](pa1/queries.sql)
 - writing select queries that include the following clauses : `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`, `LIMIT`
 ## ***Practical assignment 2:***
->In this assignment, I learned how to build one-to-one, one-to-many and many-to-many relationships between tables using the junction tables, primary and foreign keys.
-- [ ] [schema_updates.sql](pa2/schema_updates.sql)
+**In this assignment, I learned how to build one-to-one, one-to-many and many-to-many relationships between tables using the junction tables, primary and foreign keys.**
+- [x] [schema_updates.sql](pa2/schema_updates.sql)
 
 - Firstly, each table has its own primary key. Second, let's look at the relationships in each of these tables:
   - The `trail` table has one-to-many relationship with the `rating` and `review` tables. 
@@ -63,30 +45,30 @@ views.sql
   - The `hiker` table has a one-to-many relationship with the `rating` and `review` tables.
 
 
-- [ ] [queries.sql](pa2/queries.sql)
+- [x] [queries.sql](pa2/queries.sql)
 - There are two select queries that include many-to-many relationships. To retrieve data based on many-to-many relationship, `JOIN` operations(such as `INNER/LEFT/RIGHT/FULL/CROSS JOIN`,) is typically used. In my case, I leverage `INNER JOIN`.
 
 
-- [ ] [bonus.sql](pa2/bonus.sql)
+- [x] [bonus.sql](pa2/bonus.sql)
 - To complete this task, I delved into the topic of indices. First, I created two tables, then generated more rows to see the benefits of indexing, which means faster execution time, and indexed a column in one table, which I used in a subsequent query. After executing the query, I found that the query actually became much faster.
 ## ***Practical assignment 3:***
->This assignment was aimed at improving my hard skills in writing `SELECT`/`UPDATE`/`DELETE` queries with `correlated/non-correlated subqueries`.
-- [ ] [subqueries.sql](pa3/pa3.sql)
+**This assignment was aimed at improving my hard skills in writing `SELECT`/`UPDATE`/`DELETE` queries with `correlated/non-correlated subqueries`.**
+- [x] [subqueries.sql](pa3/pa3.sql)
  - There are 30 queries that include clauses such as : `=` ;`(NOT) IN`; `(NOT)EXISTS`.And for each of these clauses two types of subqueries were demonstrated. 
 ## ***Practical assignment 4:***
->The task of this assignment was to implement a `stored procedure` with all kinds of parameters (`IN`, `OUT`, `INOUT`) and write transactional mechanism that contains conditions under which `COMMIT` or `ROLLBACK` statements are executed.
-- [ ] [procedures.sql](pa4/procedures.sql)
+**The task of this assignment was to implement a `stored procedure` with all kinds of parameters (`IN`, `OUT`, `INOUT`) and write transactional mechanism that contains conditions under which `COMMIT` or `ROLLBACK` statements are executed.**
+- [x] [procedures.sql](pa4/procedures.sql)
  - Scripts for three stored procedures with parameters IN, OUT, INOUT and transaction are located here¸ Let's  take a closer look at them:
    - The stored procedure with two IN parameters select moderate hiker who give a certain score to a certain trail;
    - The stored procedure with one OUT parameter select amount of hikers who wrote at least two review;
    - The stored procedure with one INOUT parameter select number of trails with a given score that was evaluated by moderate hikers;
    - The transaction follows this logic: user give parameter a by which the score (which is associated with parameter b that represent country) will be decreased. Transaction is not implemented if the score after decreasing is less than 0
-- [ ] [execution.sql](pa4/executions.sql)
+- [x] [execution.sql](pa4/executions.sql)
 - In this file I called three stored procedures that were described above. Also, I have demonstrated different results of the transaction completion depending on the logic. 
 
 ## ***Practical assignment 5:***
-> The purpose of this assignment was to create views. Actually, this assignment made me realise that virtual tables are an integral part of working with databases in real life, as they simplify complex queries, ensure data security and make access to this data convenient.
-- [ ] [views.sql](pa5/views.sql)
+** The purpose of this assignment was to create views. Actually, this assignment made me realise that virtual tables are an integral part of working with databases in real life, as they simplify complex queries, ensure data security and make access to this data convenient.**
+- [x] [views.sql](pa5/views.sql)
 - The structure of the two views is in this file. As a result, I have virtual tables for Europe and North America with columns `trail_name`, `image`, `coordinates`, `description` and `first sentences of the two most recent reviews`. To implement the last column, I used the `SUBSTRING_INDEX` function, which extracts substrings from a string based on a specified delimiter.
 
 
