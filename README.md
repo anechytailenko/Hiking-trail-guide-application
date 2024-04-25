@@ -1,26 +1,22 @@
 # Hiking-trail-guide-application
-
-
-
-
-**The topic for my database was Hiking Trail Guide, a simulation of an application that helps hikers find and explore trails around the world. In fact, it was very interesting because I used my knowledge acquired during the course on this database and saw it evolve from creating tables without relationships to creating transactions and views.  To work with the databases, I installed a MySQL server and used port 3306 (by default), and when choosing a client, I had three candidates: DBeaver, Workbench, and Rider, but I chose Rider because, in my subjective opinion, it has a more intuitive interface.**
-
-
-
-
-        4.1. Add generic info
-        4.2. Describe project structure
-        4.3. How to deploy the project
-        4.4. How to run bonus tasks if any
-        4.5. Info about author
-****
 ## **Structure of the project:**
 Here are links to each of the practical assignments where their description and code could be found
+* [Introduction](#introduction)
 * [Practical assignment 1](#practical-assignment-1)
 * [Practical assignment 2](#practical-assignment-2)
 * [Practical assignment 3](#practical-assignment-3)
 * [Practical assignment 4](#practical-assignment-4)
 * [Practical assignment 5](#practical-assignment-5)
+* [Diagram and final word]()
+
+****
+
+## Introduction
+**The topic for my database was Hiking Trail Guide, a simulation of an application that helps hikers find and explore trails around the world. In fact, it was very interesting because I used my knowledge acquired during the course on this database and saw it evolve from creating tables without relationships to creating transactions and views.  To work with the databases, I installed a MySQL server and used port 3306 (by default), and when choosing a client, I had three candidates: DBeaver, Workbench, and Rider, but I chose Rider because, in my subjective opinion, it has a more intuitive interface.**
+
+
+
+
 
 
 
@@ -67,9 +63,18 @@ Here are links to each of the practical assignments where their description and 
 - In this file I called three stored procedures that were described above. Also, I have demonstrated different results of the transaction completion depending on the logic. 
 
 ## ***Practical assignment 5:***
-** The purpose of this assignment was to create views. Actually, this assignment made me realise that virtual tables are an integral part of working with databases in real life, as they simplify complex queries, ensure data security and make access to this data convenient.**
+**The purpose of this assignment was to create views. Actually, this assignment made me realise that virtual tables are an integral part of working with databases in real life, as they simplify complex queries, ensure data security and make access to this data convenient.**
 - [x] [views.sql](pa5/views.sql)
 - The structure of the two views is in this file. As a result, I have virtual tables for Europe and North America with columns `trail_name`, `image`, `coordinates`, `description` and `first sentences of the two most recent reviews`. To implement the last column, I used the `SUBSTRING_INDEX` function, which extracts substrings from a string based on a specified delimiter.
+
+
+## Conclusion:
+This course covered the basics of databases and looking at the diagram of my database, I see the result, but at the same time I see a lot of new things to discover and improve and it inspires me to go further!
+![diagram](diagram/diagram.png)
+
+
+
+
 
 
 
